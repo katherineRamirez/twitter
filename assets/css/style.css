@@ -1,0 +1,71 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url("../../assets/img/imagen-de-fondo.jpg");
+	background-size: cover;
+}
+h1{
+	background: DodgerBlue;
+	border: 1px outset grey;
+	height: 50px;
+	text-align: center;
+	color: white;
+}
+.contenedor1{
+	float: left;
+	background: white;
+	display: inline-block;
+	width: 500px;
+	height: 200px;
+	margin-top: 30px;
+	padding-top: 30px;
+	padding-left: 30px;
+	margin-left: 50px;
+}
+p{
+	margin-top: 20px;
+}
+
+.contenedor1 .codigo{
+	color: blue;
+	margin-top: 50px;
+}
+.contenedor2{
+	display: inline-block;
+	position: relative;
+	margin-left: 100px;
+}
+.contenedor2 #count1{
+	position: relative;
+	font-size: 20px;
+	right: 80px;
+	bottom: 10px;
+}
+.form-control{
+	display: inline-block;
+	margin-top: 30px;
+	width: 500px;
+	height: 230px;
+}
+textarea{
+	font-size: 15px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+hr{
+	position: absolute;
+	bottom: 100px;
+	border: 2px solid DodgerBlue;
+	left: 30px;
+	width: 440px;
+}
+button{
+	position: absolute;
+	background: DodgerBlue;
+	color: white;
+	padding: 10px;
+	bottom: 35px;
+	right: 400px;
+}

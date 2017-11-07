@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Twitter</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<header>
+	<h1>Twitter</h1>
+	</header>
+	<div class="contenedor1">
+		<h3>
+			Reto de Código
+		</h3>
+		<p>
+			Hola, <br> soy front-end jr.
+		</p>
+		<p class="codigo">
+			<strong>CÓDIGO.</strong>
+		</p>
+	</div>
+	<div class="contenedor2">
+		<form id="form-tuit">
+			<textarea class="form-control" id="message" rows ="5" placeholder="¿Qué estás pensando?" onkeyup="count_down(this);" ></textarea>
+			<span class="text-muted pull-right" id="count1">140</span>
+			<hr>
+			<button type="enviar" id="boton" class="boton-disable" disabled="true">TWEET</button>
+		</form>
+	<div id="time"></div>
+	<script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+</html>
