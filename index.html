@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +10,7 @@
 	<header>
 	<h1>Twitter</h1>
 	</header>
+	<!-- Diseñando contenedor 1 (contenido estático) -->
 	<div class="contenedor1">
 		<h3>
 			Reto de Código
@@ -20,14 +22,18 @@
 			<strong>CÓDIGO.</strong>
 		</p>
 	</div>
+	<!--Contenedor con el formulario que se va a modificar desde javascript -->
 	<div class="contenedor2">
-		<form id="form-tuit">
-			<textarea class="form-control" id="message" rows ="5" placeholder="¿Qué estás pensando?" onkeyup="count_down(this);" ></textarea>
-			<span class="text-muted pull-right" id="count1">140</span>
+		<form class="formulario-twitter">
+			<textarea class="texto" id="txt" cols="37" rows="3"  placeholder="¿Qué estas pensando?" onkeyup="countDown(this);"> </textarea>
 			<hr>
-			<button type="enviar" id="boton" class="boton-disable" disabled="true">TWEET</button>
+			<button class="boton" id="btn" type="button">TWEET</button>
+			<p  id="count" class="text-muted pull-right">140</p>
 		</form>
-	<div id="time"></div>
+	</div>
+
+			<div id="contenido"></div>
+		
 	<script type="text/javascript" src="assets/js/app.js"></script>
 </body>
 </html>
